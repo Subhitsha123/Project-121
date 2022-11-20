@@ -6,6 +6,7 @@ import numpy as np
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 output_file = cv2.VideoWriter('output.avi', fourcc, 20.0, (640,480))
 capture = cv2.VideoCapture(0)
+img = cv2.imread("me.jpeg") 
 time.sleep(2)
 bg = 0
 
